@@ -1,0 +1,26 @@
+#messages {
+    width: 20%;
+    margin: 0 auto;
+    padding: 15px;
+    padding-top: 10px;
+    border: solid black 1px;
+}
+
+.message {
+    background-color: lightgrey;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 7px;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-weight: 350;
+    font-size: 13px;
+
+}
+
+.message:nth-child(even) {
+    background-color: royalblue;
+    border-radius: 12px;
+    margin-left: auto;
+    color: white;
+}
